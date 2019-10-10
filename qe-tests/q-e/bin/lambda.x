@@ -1,1 +1,0 @@
-../PHonon/PH/lambda.x

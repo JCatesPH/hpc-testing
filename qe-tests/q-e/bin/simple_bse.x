@@ -1,1 +1,0 @@
-../GWW/simple_bse/simple_bse.x

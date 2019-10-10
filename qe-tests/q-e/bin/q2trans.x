@@ -1,1 +1,0 @@
-../PHonon/PH/q2trans.x

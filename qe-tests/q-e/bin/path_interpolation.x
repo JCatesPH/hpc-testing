@@ -1,1 +1,0 @@
-../NEB/src/path_interpolation.x

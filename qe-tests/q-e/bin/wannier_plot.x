@@ -1,1 +1,0 @@
-../PP/src/wannier_plot.x

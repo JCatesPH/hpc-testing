@@ -1,1 +1,0 @@
-../PHonon/Gamma/phcg.x

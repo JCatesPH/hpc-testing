@@ -1,1 +1,0 @@
-../PHonon/PH/alpha2f.x

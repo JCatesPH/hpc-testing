@@ -45,8 +45,10 @@ OMPOPT=""
 #HDF5OPT="-with-hdf5=("/share/apps/hdf5/hdf5-1.10.4-gcc")"
 HDF5OPT=""
 
+pwd
+
 #--------------------------------------------#
-make clean
+#make clean
 
 # Run the configuration step.
 ./configure --prefix="/scratch/qe-testing/gcc-openmpi" $OMPOPT $HDF5OPT $LA
