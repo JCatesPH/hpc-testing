@@ -11,7 +11,7 @@ echo ${TODAY}
 
 echo "Starting PSIWAT test at: $(date)"
 
-srun -n "$PROCSREQ" "$QELOC"/pw.x -in /scratch/qe-testing/benchmarks/PSIWAT/psiwat.in &> "$CURROUTDIR"/PSIWAT_"$CURRCONFIG"_$(date +"%m_%d_%Y")_n"$PROCSREQ".out
+srun -n "$PROCSREQ" "$QELOC"/pw.x -in "$COMMONDIR"/benchmarks/PSIWAT/psiwat.in &> "$CURROUTDIR"/PSIWAT_"$CURRCONFIG"_$(date +"%m_%d_%Y")_n"$PROCSREQ".out
 
 wait $!
 echo "========================="

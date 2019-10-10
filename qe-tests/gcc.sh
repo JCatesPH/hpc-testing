@@ -20,9 +20,9 @@ use fftw3_gcc540
 #export F90= # Fortran90 Compiler 
 # Above should not be used with mpi.
 
-export F77="mpiifort" # Fortran77 Compiler
-export CC="mpiicc" # C Compiler
-export MPIF90="mpiifort" # Parallel Fortran90 Compiler
+export F77="mpif77" # Fortran77 Compiler
+export CC="mpicc" # C Compiler
+export MPIF90="mpif90" # Parallel Fortran90 Compiler
 #export CPP="" # Source file preprocessor # Not sure what this does.
 #export LD= # Linker
 #export LIBDIRS= # Library search paths.
@@ -48,10 +48,10 @@ HDF5OPT=""
 pwd
 
 #--------------------------------------------#
-#make clean
+make clean
 
 # Run the configuration step.
-./configure --prefix="/scratch/qe-testing/gcc-openmpi" $OMPOPT $HDF5OPT $LA
+./configure $OMPOPT $HDF5OPT $LA
 
 # Make the executables.
 make all
