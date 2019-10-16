@@ -31,6 +31,7 @@ export QELOC=$PWD"/q-e/bin"
 # Needed for intel mpi to work.
 export I_MPI_PMI_LIBRARY="/lib64/libpmi.so"
 
+export ESPRESSO_PSEUDO=$PWD"/pseudos/"
 #=====================================#
 # Start the sbatch submissions.
 echo

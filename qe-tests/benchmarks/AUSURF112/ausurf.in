@@ -5,7 +5,6 @@
   tprnfor = .TRUE.,
   etot_conv_thr = 1.d-8,
   prefix = 'ausurf'
-  pseudo_dir = '/scratch/qe-testing/pseudos/'
   outdir = './'
   disk_io = 'none'
 /

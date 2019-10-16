@@ -1,7 +1,6 @@
  &control
     calculation='cp'
     restart_mode='from_scratch',
-    pseudo_dir = '/scratch/qe-testing/pseudos',
     outdir='./'
     prefix='cnt10por8'
     nstep=500

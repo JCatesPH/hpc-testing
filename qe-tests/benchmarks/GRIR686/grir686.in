@@ -3,7 +3,6 @@
     prefix='GRIR'
     max_seconds=20000 !42000
     restart_mode='from_scratch'
-    pseudo_dir='/scratch/qe-testing/pseudos',
     outdir='./',
 !    disk_io = 'none'
  /
