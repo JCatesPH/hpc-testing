@@ -59,7 +59,7 @@ echo
 
 echo
 echo "Submitting GRIR686 script."
-sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ$PWD/scripts/grir686.sh
+sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ $PWD/scripts/grir686.sh
 echo "Done"
 echo 
 
