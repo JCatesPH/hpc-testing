@@ -11,7 +11,7 @@ echo ${TODAY}
 
 echo "Starting AUSURF test at: $(date)"
 
-srun -n $PROCSREQ "$QELOC"/pw.x -in "$COMMONDIR"/benchmarks/AUSURF112/ausurf.in &> "$CURROUTDIR"/AUSURF_"$CURRCONFIG"_$(date +"%m_%d_%Y")_n"$PROCSREQ".out
+srun -n $PROCSREQ "$QELOC"/pw.x -in "$COMMDIR"/benchmarks/AUSURF112/ausurf.in &> "$CURROUTDIR"/AUSURF_"$CURRCONFIG"_$(date +"%m_%d_%Y")_n"$PROCSREQ".out
 
 wait $!
 echo "========================="

@@ -11,7 +11,7 @@ echo ${TODAY}
 
 echo "Starting GRIR443 test at: $(date)"
 
-srun -n "$PROCSREQ" "$QELOC"/pw.x -in "$COMMONDIR"/benchmarks/GRIR443/grir443.in &> "$CURROUTDIR"/GRIR443_"$CURRCONFIG"_$(date +"%m_%d_%Y")_n"$PROCSREQ".out
+srun -n "$PROCSREQ" "$QELOC"/pw.x -in "$COMMDIR"/benchmarks/GRIR443/grir443.in &> "$CURROUTDIR"/GRIR443_"$CURRCONFIG"_$(date +"%m_%d_%Y")_n"$PROCSREQ".out
 
 wait $!
 echo "========================="
