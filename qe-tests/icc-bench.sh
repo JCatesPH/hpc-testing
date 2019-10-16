@@ -18,38 +18,38 @@ export I_MPI_PMI_LIBRARY="/lib64/libpmi.so"
 export PROCSREQ=$1
 
 # Set the output directory.
-export CURROUTDIR="/scratch/qe-testing/icc"
+export CURROUTDIR=$PWD"/icc"
 
 # Set the configuration label.
 export CURRCONFIG="icc0"
 
 # Set the location of quantum espresso executable.
-export QELOC="/scratch/qe-testing/q-e/bin"
+export QELOC=$PWD"/q-e/bin"
 
 #=====================================#
 # Start the sbatch submissions.
 
 echo
 echo "Submitting AUSURF script."
-sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ /scratch/qe-testing/scripts/ausurf.sh 
+sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ $PWD/scripts/ausurf.sh 
 echo "Done"
 echo 
 
 echo
 echo "Submitting GRIR443 script."
-sbatch -n $PROCSREQ --job-name=grir443-$PROCSREQ /scratch/qe-testing/scripts/grir443.sh 
+sbatch -n $PROCSREQ --job-name=grir443-$PROCSREQ $PWD/scripts/grir443.sh 
 echo "Done"
 echo 
 
 echo
 echo "Submitting GRIR686 script."
-sbatch -n $PROCSREQ --job-name=grir686-$PROCSREQ /scratch/qe-testing/scripts/grir686.sh 
+sbatch -n $PROCSREQ --job-name=grir686-$PROCSREQ $PWD/scripts/grir686.sh 
 echo "Done"
 echo 
 
 echo
 echo "Submitting PSIWAT script."
-sbatch -n $PROCSREQ --job-name=psiwat-$PROCSREQ /scratch/qe-testing/scripts/psiwat.sh 
+sbatch -n $PROCSREQ --job-name=psiwat-$PROCSREQ $PWD/scripts/psiwat.sh 
 echo "Done"
 echo 
 
