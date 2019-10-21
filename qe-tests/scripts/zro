@@ -1,0 +1,6 @@
+Thu Oct 17 13:50:21 CDT 2019
+Starting ZrO test at: Thu Oct 17 13:50:21 CDT 2019
+/var/spool/slurmd/job323947/slurm_script: line 20: /ZrO__10_17_2019_n.out: Permission denied
+=========================
+Job complete!
+Thu Oct 17 13:50:21 CDT 2019

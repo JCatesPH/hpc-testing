@@ -36,7 +36,7 @@ export ESPRESSO_PSEUDO=$PWD"/pseudos/"
 # Start the sbatch submissions.
 echo
 echo "Submitting ZrO script."
-sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ $PWD/scripts/zro.sh
+sbatch -n $PROCSREQ --job-name=zro-$PROCSREQ $PWD/scripts/zro.sh
 echo "Done"
 echo 
 
@@ -48,25 +48,25 @@ echo
 
 echo
 echo "Submitting CNT10POR8 script."
-sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ $PWD/scripts/cnt10por8.sh
+sbatch -n $PROCSREQ --job-name=cnt10-$PROCSREQ $PWD/scripts/cnt10por8.sh
 echo "Done"
 echo
 
 echo
 echo "Submitting GRIR443 script."
-sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ $PWD/scripts/grir443.sh
+sbatch -n $PROCSREQ --job-name=grir443-$PROCSREQ $PWD/scripts/grir443.sh
 echo "Done"
 echo 
 
 echo
 echo "Submitting GRIR686 script."
-sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ $PWD/scripts/grir686.sh
+sbatch -n $PROCSREQ --job-name=grir686-$PROCSREQ $PWD/scripts/grir686.sh
 echo "Done"
 echo 
 
 echo
 echo "Submitting PSIWAT script."
-sbatch -n $PROCSREQ --job-name=ausurf-$PROCSREQ $PWD/scripts/psiwat.sh
+sbatch -n $PROCSREQ --job-name=psiwat-$PROCSREQ $PWD/scripts/psiwat.sh
 echo "Done"
 echo 
 

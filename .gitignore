@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+
+# Exclude data output.
+qe-tests/ser.restart_k
+qe-tests/ser.restart_k2
+qe-tests/ser.restart_k3
+qe-tests/ser.restart_k4
+qe-tests/ser.restart_scf
+qe-tests/ser.restart_scf2
+qe-tests/ser.restart_scf3
+qe-tests/ser.restart_scf4
+
+*.dat
+*.xml
+*.mix1
+*.mix2
+*.mix3
+*.mix4
+*.wfc1
+*.wfc2
+*.wfc3
+*.wfc4

@@ -1,7 +1,6 @@
 &CONTROL
   calculation = 'scf'
   prefix = 'ZrO_'
-  pseudo_dir = '/scratch/qe-testing/pseudos/'
   restart_mode = 'from_scratch'
   verbosity = 'high'
 /
