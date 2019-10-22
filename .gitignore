@@ -32,14 +32,20 @@
 *.app
 
 # Exclude data output.
-qe-tests/ser.restart_k
-qe-tests/ser.restart_k2
-qe-tests/ser.restart_k3
-qe-tests/ser.restart_k4
-qe-tests/ser.restart_scf
-qe-tests/ser.restart_scf2
-qe-tests/ser.restart_scf3
-qe-tests/ser.restart_scf4
+*.restart_k
+*.restart_k2
+*.restart_k3
+*.restart_k4
+*.restart_k5
+*.restart_k6
+*.restart_scf
+*.restart_scf2
+*.restart_scf3
+*.restart_scf4
+*.restart_scf5
+*.restart_scf6
+*paw.txt
+q-e/test-suite/*
 
 *.dat
 *.xml
@@ -47,7 +53,12 @@ qe-tests/ser.restart_scf4
 *.mix2
 *.mix3
 *.mix4
+*.mix5
+*.mix6
 *.wfc1
 *.wfc2
 *.wfc3
 *.wfc4
+*.wfc5
+*.wfc6
+
