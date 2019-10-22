@@ -1,0 +1,299 @@
+srun: forcing job termination
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:23 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: MESSAGE_TASK_EXIT has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:51:14 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_PING has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: forcing job termination
+srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
+srun: got SIGCONT
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.252]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:22 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_TIMEOUT has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:51:24 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_PING has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:34 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: MESSAGE_TASK_EXIT has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:51:34 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_PING has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.252]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:23 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_JOB_COMPLETE has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:51:44 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_PING has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:44 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: MESSAGE_TASK_EXIT has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:51:54 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_PING has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.252]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:54 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: MESSAGE_TASK_EXIT has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:04 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_PING has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.252]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:53:05 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: MESSAGE_TASK_EXIT has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:14 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_PING has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.252]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:53:16 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: MESSAGE_TASK_EXIT has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:22 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_TIMEOUT has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.252]: Unspecified error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Munge decode failed: Expired credential
+srun: ENCODED: Thu Oct 03 16:52:23 2019
+srun: DECODED: Thu Oct 10 09:57:31 2019
+srun: error: slurm_unpack_received_msg: SRUN_JOB_COMPLETE has authentication error: Expired credential 
+srun: error: slurm_unpack_received_msg: Protocol authentication error
+srun: error: eio_message_socket_accept: slurm_receive_msg[192.168.0.7]: Unspecified error
+srun: error: Timed out waiting for job step to complete
+) = (   2.3559716   2.1021445   0.3497317  )
+        42           AU  tau(  42) = (   2.3559716   1.8550456   0.3497317  )
+        43           AU  tau(  43) = (   1.4992193   1.6901992   0.2331545  )
+        44           AU  tau(  44) = (   1.4992193   1.9374930   0.2331545  )
+        45           AU  tau(  45) = (   1.6420276   1.6901992   0.2331545  )
+        46           AU  tau(  46) = (   1.6420276   1.9374930   0.2331545  )
+        47           AU  tau(  47) = (   1.7847871   1.6901992   0.2331545  )
+        48           AU  tau(  48) = (   1.7847871   1.9374930   0.2331545  )
+        49           AU  tau(  49) = (   1.9275954   1.6901992   0.2331545  )
+        50           AU  tau(  50) = (   1.9275954   1.9374930   0.2331545  )
+        51           AU  tau(  51) = (   2.0704038   1.6901992   0.2331545  )
+        52           AU  tau(  52) = (   2.0704038   1.9374930   0.2331545  )
+        53           AU  tau(  53) = (   2.2131632   1.6901992   0.2331545  )
+        54           AU  tau(  54) = (   2.2131632   1.9374930   0.2331545  )
+        55           AU  tau(  55) = (   2.3559716   1.6901992   0.2331545  )
+        56           AU  tau(  56) = (   2.3559716   1.9374930   0.2331545  )
+        57           AU  tau(  57) = (   1.4278395   1.9784974   0.0000000  )
+        58           AU  tau(  58) = (   1.4278395   1.7313987   0.0000000  )
+        59           AU  tau(  59) = (   1.5706478   1.9784974   0.0000000  )
+        60           AU  tau(  60) = (   1.5706478   1.7313987   0.0000000  )
+        61           AU  tau(  61) = (   1.7134072   1.9784974   0.0000000  )
+        62           AU  tau(  62) = (   1.7134072   1.7313987   0.0000000  )
+        63           AU  tau(  63) = (   1.8562156   1.9784974   0.0000000  )
+        64           AU  tau(  64) = (   1.8562156   1.7313987   0.0000000  )
+        65           AU  tau(  65) = (   1.9989753   1.9784974   0.0000000  )
+        66           AU  tau(  66) = (   1.9989753   1.7313987   0.0000000  )
+        67           AU  tau(  67) = (   2.1417836   1.9784974   0.0000000  )
+        68           AU  tau(  68) = (   2.1417836   1.7313987   0.0000000  )
+        69           AU  tau(  69) = (   2.2845431   1.9784974   0.0000000  )
+        70           AU  tau(  70) = (   2.2845431   1.7313987   0.0000000  )
+        71           AU  tau(  71) = (   1.4992193   2.0196968   0.1165772  )
+        72           AU  tau(  72) = (   1.4992193   1.7725979   0.1165772  )
+        73           AU  tau(  73) = (   1.6420276   2.0196968   0.1165772  )
+        74           AU  tau(  74) = (   1.6420276   1.7725979   0.1165772  )
+        75           AU  tau(  75) = (   1.7847871   2.0196968   0.1165772  )
+        76           AU  tau(  76) = (   1.7847871   1.7725979   0.1165772  )
+        77           AU  tau(  77) = (   1.9275954   2.0196968   0.1165772  )
+        78           AU  tau(  78) = (   1.9275954   1.7725979   0.1165772  )
+        79           AU  tau(  79) = (   2.0704038   2.0196968   0.1165772  )
+        80           AU  tau(  80) = (   2.0704038   1.7725979   0.1165772  )
+        81           AU  tau(  81) = (   2.2131632   2.0196968   0.1165772  )
+        82           AU  tau(  82) = (   2.2131632   1.7725979   0.1165772  )
+        83           AU  tau(  83) = (   2.3559716   2.0196968   0.1165772  )
+        84           AU  tau(  84) = (   2.3559716   1.7725979   0.1165772  )
+        85           AU  tau(  85) = (   1.4278395   2.1433437   0.1165772  )
+        86           AU  tau(  86) = (   1.4278395   1.8962938   0.1165772  )
+        87           AU  tau(  87) = (   1.5706478   2.1433437   0.1165772  )
+        88           AU  tau(  88) = (   1.5706478   1.8962938   0.1165772  )
+        89           AU  tau(  89) = (   1.7134072   2.1433437   0.1165772  )
+        90           AU  tau(  90) = (   1.7134072   1.8962938   0.1165772  )
+        91           AU  tau(  91) = (   1.8562156   2.1433437   0.1165772  )
+        92           AU  tau(  92) = (   1.8562156   1.8962938   0.1165772  )
+        93           AU  tau(  93) = (   1.9989753   2.1433437   0.1165772  )
+        94           AU  tau(  94) = (   1.9989753   1.8962938   0.1165772  )
+        95           AU  tau(  95) = (   2.1417836   2.1433437   0.1165772  )
+        96           AU  tau(  96) = (   2.1417836   1.8962938   0.1165772  )
+        97           AU  tau(  97) = (   2.2845431   2.1433437   0.1165772  )
+        98           AU  tau(  98) = (   2.2845431   1.8962938   0.1165772  )
+        99           AU  tau(  99) = (   1.4992193   2.1021445   0.0000000  )
+       100           AU  tau( 100) = (   1.4992193   1.8550456   0.0000000  )
+       101           AU  tau( 101) = (   1.6420276   2.1021445   0.0000000  )
+       102           AU  tau( 102) = (   1.6420276   1.8550456   0.0000000  )
+       103           AU  tau( 103) = (   1.7847871   2.1021445   0.0000000  )
+       104           AU  tau( 104) = (   1.7847871   1.8550456   0.0000000  )
+       105           AU  tau( 105) = (   1.9275954   2.1021445   0.0000000  )
+       106           AU  tau( 106) = (   1.9275954   1.8550456   0.0000000  )
+       107           AU  tau( 107) = (   2.0704038   2.1021445   0.0000000  )
+       108           AU  tau( 108) = (   2.0704038   1.8550456   0.0000000  )
+       109           AU  tau( 109) = (   2.2131632   2.1021445   0.0000000  )
+       110           AU  tau( 110) = (   2.2131632   1.8550456   0.0000000  )
+       111           AU  tau( 111) = (   2.3559716   2.1021445   0.0000000  )
+       112           AU  tau( 112) = (   2.3559716   1.8550456   0.0000000  )
+
+     number of k points=     2  Marzari-Vanderbilt smearing, width (Ry)=  0.0500
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.2500000   0.5056706   0.0000000), wk =   1.0000000
+        k(    2) = (  -0.2500000   0.5056706   0.0000000), wk =   1.0000000
+
+     Dense  grid:  2158381 G-vectors     FFT dimensions: ( 180,  90, 288)
+
+     Smooth grid:   763307 G-vectors     FFT dimensions: ( 125,  64, 200)
+
+     Estimated max dynamical RAM per process >       5.55 GB
+
+     Estimated total dynamical RAM >      22.21 GB
+
+     Initial potential from superposition of free atoms
+
+     starting charge 1230.69946, renormalised to 1232.00000
+
+     negative rho (up, down):  3.043E+00 0.000E+00
+     Starting wfcs are 1008 randomized atomic wfcs
+
+     total cpu time spent up to now is      174.7 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    25.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  6.0
+
+     Threshold (ethr) on eigenvalues was too large:
+     Diagonalizing with lowered threshold
+
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     ethr =  4.46E-04,  avg # of iterations = 12.0
+
+     negative rho (up, down):  2.992E+00 0.000E+00
+
+     total cpu time spent up to now is     1257.5 secs
+
+     total energy              =  -11423.49420492 Ry
+     Harris-Foulkes estimate   =  -11428.44921297 Ry
+     estimated scf accuracy    <       6.32136486 Ry
+
+     iteration #  2     ecut=    25.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  5.13E-04,  avg # of iterations = 12.0
+
+     negative rho (up, down):  2.994E+00 0.000E+00
+
+     total cpu time spent up to now is     2510.5 secs
+
+     total energy              =  -11408.21741724 Ry
+     Harris-Foulkes estimate   =  -11440.29012919 Ry
+     estimated scf accuracy    <     197.30364818 Ry
+
+     End of self-consistent calculation
+
+     convergence NOT achieved after   2 iterations: stopping
+ 
+     init_run     :    172.15s CPU    174.59s WALL (       1 calls)
+     electrons    :   2321.97s CPU   2335.88s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :    160.10s CPU    161.79s WALL (       1 calls)
+     potinit      :      3.29s CPU      3.41s WALL (       1 calls)
+     hinit0       :      5.68s CPU      5.77s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :   2193.66s CPU   2204.11s WALL (       3 calls)
+     sum_band     :    120.66s CPU    123.00s WALL (       3 calls)
+     v_of_rho     :      2.80s CPU      2.99s WALL (       3 calls)
+     newd         :      7.54s CPU      8.97s WALL (       3 calls)
+     mix_rho      :      0.39s CPU      0.41s WALL (       3 calls)
+
+     Called by c_bands:
+     init_us_2    :      2.54s CPU      2.68s WALL (      14 calls)
+     cegterg      :   2181.28s CPU   2191.70s WALL (       6 calls)
+
+     Called by sum_band:
+     sum_band:bec :      0.09s CPU      0.09s WALL (       6 calls)
+     addusdens    :      9.02s CPU     10.30s WALL (       3 calls)
+
+     Called by *egterg:
+     h_psi        :    686.84s CPU    695.01s WALL (      68 calls)
+     s_psi        :    192.29s CPU    192.30s WALL (      68 calls)
+     g_psi        :      1.37s CPU      1.37s WALL (      60 calls)
+     cdiaghg      :    639.33s CPU    639.39s WALL (      64 calls)
+
+     Called by h_psi:
+     h_psi:pot    :    685.61s CPU    692.33s WALL (      68 calls)
+     h_psi:calbec :    185.36s CPU    185.47s WALL (      68 calls)
+     vloc_psi     :    308.29s CPU    314.88s WALL (      68 calls)
+     add_vuspsi   :    191.95s CPU    191.97s WALL (      68 calls)
+
+     General routines
+     calbec       :    240.06s CPU    240.20s WALL (      74 calls)
+     fft          :      2.36s CPU      2.54s WALL (      40 calls)
+     ffts         :      0.12s CPU      0.13s WALL (       6 calls)
+     fftw         :    298.51s CPU    305.87s WALL (   36424 calls)
+     interpolate  :      0.26s CPU      0.27s WALL (       3 calls)
+     davcio       :      0.00s CPU      0.41s WALL (       6 calls)
+ 
+     Parallel routines
+     fft_scatt_xy :     88.51s CPU     88.76s WALL (   36470 calls)
+     fft_scatt_yz :     37.29s CPU     43.83s WALL (   36470 calls)
+ 
+     PWSCF        :  41m34.47s CPU  41m54.23s WALL
+
+ 
+   This run was terminated on:  17:51:25   3Oct2019            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+2
+2
+2
+2
+srun: error: compute-20-5: tasks 0-3: Exited with exit code 2
