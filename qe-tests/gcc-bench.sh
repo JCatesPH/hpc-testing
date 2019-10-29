@@ -34,11 +34,11 @@ export I_MPI_PMI_LIBRARY="/lib64/libpmi.so"
 export ESPRESSO_PSEUDO=$PWD"/pseudos/"
 #=====================================#
 # Start the sbatch submissions.
-echo
-echo "Submitting ZrO script."
-sbatch -n $PROCSREQ --job-name=zro-$PROCSREQ $PWD/scripts/zro.sh
-echo "Done"
-echo 
+#echo
+#echo "Submitting ZrO script."
+#sbatch -n $PROCSREQ --job-name=zro-$PROCSREQ $PWD/scripts/zro.sh
+#echo "Done"
+#echo 
 
 echo
 echo "Submitting AUSURF script."

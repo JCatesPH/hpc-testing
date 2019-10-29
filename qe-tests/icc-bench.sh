@@ -21,10 +21,14 @@ export PROCSREQ=$1
 export CURROUTDIR=$PWD"/icc"
 
 # Set the configuration label.
-export CURRCONFIG="icc0"
+export CURRCONFIG="icc1"
 
 # Set the location of quantum espresso executable.
 export QELOC=$PWD"/q-e/bin"
+
+export COMMDIR=$PWD
+
+export ESPRESSO_PSEUDO=$PWD"/pseudos/"
 
 #=====================================#
 # Start the sbatch submissions.
@@ -42,8 +46,8 @@ echo "Done"
 echo 
 
 echo
-echo "Submitting GRIR686 script."
-sbatch -n $PROCSREQ --job-name=grir686-$PROCSREQ $PWD/scripts/grir686.sh 
+echo "Submitting ZrO script."
+sbatch -n $PROCSREQ --job-name=zro-$PROCSREQ $PWD/scripts/zro.sh 
 echo "Done"
 echo 
 

@@ -1,5 +1,13 @@
+TMPDIR /state/partition1/361056 unavailable
+TMPDIR /state/partition1/361056 unavailable
+TMPDIR /state/partition1/361056 unavailable
+TMPDIR /state/partition1/361056 unavailable
+TMPDIR /state/partition1/361056 unavailable
+TMPDIR /state/partition1/361056 unavailable
+TMPDIR /state/partition1/361056 unavailable
+TMPDIR /state/partition1/361056 unavailable
 
-     Program PWSCF v.6.4.1 starts on 21Oct2019 at 15: 7: 0 
+     Program PWSCF v.6.4.1 starts on 22Oct2019 at 17:44:26 
 
      This program is part of the open-source Quantum ESPRESSO suite
      for quantum simulation of materials; please cite
@@ -9,10 +17,10 @@
      in publications or presentations arising from this work. More details at
      http://www.quantum-espresso.org/quote
 
-     Parallel version (MPI), running on     6 processors
+     Parallel version (MPI), running on     8 processors
 
      MPI processes distributed on     1 nodes
-     R & G space division:  proc/nbgrp/npool/nimage =       6
+     R & G space division:  proc/nbgrp/npool/nimage =       8
      Reading input from /scratch/hpc-testing/qe-tests/benchmarks/GRIR686/grir686.in
 
      Current dimensions of program PWSCF are:
@@ -28,8 +36,8 @@
      Parallelization info
      --------------------
      sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
-     Min        2986    2986    773               411522   411522   54133
-     Max        2987    2987    774               411527   411527   54136
+     Min        2239    2239    579               308641   308641   40597
+     Max        2240    2240    580               308646   308646   40602
      Sum       17917   17917   4639              2469147  2469147  324807
 
 
@@ -804,9 +812,9 @@
 
      Dense  grid:  2469147 G-vectors     FFT dimensions: ( 180, 180, 216)
 
-     Estimated max dynamical RAM per process >      65.70 GB
+     Estimated max dynamical RAM per process >      51.12 GB
 
-     Estimated total dynamical RAM >     394.20 GB
+     Estimated total dynamical RAM >     408.96 GB
      Generating pointlists ...
      new r_m :   0.0238 (alat units)  1.1082 (a.u.) for type    1
      new r_m :   0.0452 (alat units)  2.1052 (a.u.) for type    2
@@ -819,6 +827,11 @@
      Starting wfcs are 5174 atomic wfcs
 srun: Job step aborted: Waiting up to 62 seconds for job step to finish.
 srun: got SIGCONT
-slurmstepd: error: *** STEP 356327.0 ON compute-20-6 CANCELLED AT 2019-10-22T17:43:53 ***
 srun: forcing job termination
-srun: error: compute-20-6: tasks 0-5: Terminated
+slurmstepd: error: *** STEP 361056.0 ON compute-20-5 CANCELLED AT 2019-10-24T16:12:48 ***
+srun: error: compute-20-5: task 3: Terminated
+srun: error: compute-20-5: task 2: Terminated
+srun: error: compute-20-5: task 6: Terminated
+srun: error: compute-20-5: task 1: Terminated
+srun: error: compute-20-5: tasks 0,5,7: Terminated
+srun: error: compute-20-5: task 4: Terminated
