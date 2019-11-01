@@ -1,6 +1,6 @@
 &CONTROL
   calculation = 'scf'
-  prefix = 'ZrO_'
+  prefix = 'ZrO/ZRO'
   restart_mode = 'from_scratch'
   verbosity = 'high'
 /

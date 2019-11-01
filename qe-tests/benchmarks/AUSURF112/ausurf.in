@@ -4,7 +4,7 @@
   restart_mode = 'from_scratch', ! 'restart',
   tprnfor = .TRUE.,
   etot_conv_thr = 1.d-8,
-  prefix = 'ausurf'
+  prefix = 'ausurf/AUSURF'
   outdir = './'
   disk_io = 'none'
 /
@@ -30,7 +30,7 @@
 
 
 ATOMIC_SPECIES
- AU  196.96  Au.pbe-nd-van.UPF  
+ AU  196.96  Au.pbe-n-kjpaw_psl.1.0.0.UPF
 
 K_POINTS (automatic)
 2 2 1 1 1 0

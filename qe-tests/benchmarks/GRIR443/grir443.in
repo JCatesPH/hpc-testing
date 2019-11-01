@@ -1,6 +1,6 @@
  &control
     calculation = 'scf'
-    prefix='GRIR'
+    prefix='GRIR/GRIR'
     max_seconds=20000 !42000
     restart_mode='from_scratch'
     outdir='./',
@@ -29,8 +29,8 @@
     electron_maxstep = 1
   /
 ATOMIC_SPECIES
- C    12.010   C.pbe-paw_kj-x.UPF
- Ir  192.22   Ir.pbe-paw_kj.UPF
+ C    12.010  C.pbe-n-kjpaw_psl.1.0.0.UPF
+ Ir  192.22   Ir.pbe-n-kjpaw_psl.0.2.3.UPF
 K_POINTS {automatic}
 2 2 2 0 0 0
 ATOMIC_POSITIONS (crystal)
