@@ -4,8 +4,7 @@
   restart_mode = 'from_scratch', ! 'restart',
   tprnfor = .TRUE.,
   etot_conv_thr = 1.d-8,
-  prefix = 'ausurf/AUSURF'
-  outdir = './'
+  prefix = 'ausurf'
   disk_io = 'none'
 /
 

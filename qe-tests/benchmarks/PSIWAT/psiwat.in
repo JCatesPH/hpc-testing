@@ -3,12 +3,12 @@ starting structure
    &CONTROL
       calculation = 'scf',
       restart_mode='from_scratch',
-      prefix='ser/PSIWAT',
+      prefix='PSIWAT',
       nstep=2000,
       tprnfor = .true.,
       outdir = './',
       max_seconds = 21400
-      !disk_io = 'none'
+      disk_io = 'none'
    /
    &SYSTEM
       ibrav=8,

@@ -1,6 +1,6 @@
  &control
     calculation = 'scf'
-    prefix='GRIR/GRIR'
+    prefix='GRIR'
     max_seconds=20000 !42000
     restart_mode='from_scratch'
     outdir='./',
