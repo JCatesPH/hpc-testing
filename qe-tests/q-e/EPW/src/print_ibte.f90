@@ -1,10 +1,11 @@
   !
   ! Copyright (C) 2010-2016 Samuel Ponce', Roxana Margine, Carla Verdi, Feliciano Giustino  
-  ! Copyright (C) 2016-2019 Samuel Ponce', Roxana Margine, Feliciano Giustino
+  ! Copyright (C) 2016-2018 Samuel Ponce'
   ! 
   ! This file is distributed under the terms of the GNU General Public         
   ! License. See the file `LICENSE' in the root directory of the               
   ! present distribution, or http://www.gnu.org/copyleft.gpl.txt .
+  !
   ! 
   !-----------------------------------------------------------------------
   SUBROUTINE print_ibte( iqq, iq, totq, ef0, efcb, first_cycle, ind_tot, ind_totcb, &

@@ -30,15 +30,7 @@ export QELOC="/scratch/qe-testing/q-e/bin"
 # Start the sbatch submissions.
 
 echo
-echo "Submitting GRIR443 script."
-sbatch -n 2 --job-name=grir443-2 /scratch/qe-testing/scripts/grir443.sh 
-echo "Done"
-echo 
-
-#--dependency=afterany:310696
-
-echo
-echo "Submitting GRIR686 script."
-sbatch -n 6 --job-name=grir686-6 /scratch/qe-testing/scripts/grir686.sh 
+echo "Submitting ZrO script."
+sbatch -n $PROCSREQ --job-name=zro-$PROCSREQ $PWD/scripts/zro.sh 
 echo "Done"
 echo 

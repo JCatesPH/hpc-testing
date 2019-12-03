@@ -10,6 +10,7 @@ authors: Samuel Poncé
 author_description: The EPW project is mainly developed at the university of Oxford.
 github: https://github.com/sponce24
 email: samuel.pon@gmail.com
+project_sourceforge: http://qeforge.qe-forge.org/gf/project/q-e/
 predocmark: >
 media_dir: ./media
 page_dir: ./Ford

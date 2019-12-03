@@ -148,7 +148,8 @@ MODULE cp_restart_new
       CHARACTER(LEN=20)     :: dft_name
       CHARACTER(LEN=256)    :: dirname
       CHARACTER(LEN=320)    :: filename, sourcefile
-      INTEGER               :: ik_eff
+      CHARACTER(LEN=4)      :: cspin
+      INTEGER               :: kunit, ik_eff
       INTEGER               :: k1, k2, k3
       INTEGER               :: nk1, nk2, nk3
       INTEGER               :: j, i, iss, ig, nspin_wfc, iss_wfc
@@ -645,8 +646,11 @@ MODULE cp_restart_new
       COMPLEX(DP),           INTENT(INOUT) :: cm2(:,:)     ! 
       REAL(DP),              INTENT(INOUT) :: wfc(:,:)     ! BS 
       !
-      CHARACTER(LEN=256)   :: dirname, filename
+      CHARACTER(LEN=256)   :: dirname, kdirname, filename
+      CHARACTER(LEN=5)     :: kindex
+      CHARACTER(LEN=4)     :: cspin
       INTEGER              :: strlen
+      INTEGER              :: kunit
       INTEGER              :: k1, k2, k3
       INTEGER              :: nk1, nk2, nk3
       INTEGER              :: i, j, iss, ig, nspin_wfc, ierr, ik

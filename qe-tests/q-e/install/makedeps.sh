@@ -124,10 +124,43 @@ for dir in $dirs; do
 
         if test "$DIR" = "UtilXlib"
         then
-            sed '/@ifcore@/d' make.depend > make.depend.tmp
-            sed '/@cudafor@/d' make.depend.tmp > make.depend
+            sed '/@elpa1@/d' make.depend > make.depend.tmp
+            sed '/@ifcore@/d;/@cudafor@/d' make.depend.tmp > make.depend
         fi
 
+        if test "$DIR" = "KS_Solvers/Davidson"
+        then
+
+            sed '/@elpa1@/d' make.depend > make.depend.tmp
+            sed '/@ifcore@/d' make.depend.tmp > make.depend
+        fi
+
+        if test "$DIR" = "KS_Solvers/Davidson_RCI"
+        then
+            sed '/@elpa1@/d' make.depend > make.depend.tmp
+            sed '/@ifcore@/d' make.depend.tmp > make.depend
+        fi
+
+        if test "$DIR" = "KS_Solvers/CG"
+        then
+
+            sed '/@elpa1@/d' make.depend > make.depend.tmp
+            sed '/@ifcore@/d' make.depend.tmp > make.depend
+        fi
+
+        if test "$DIR" = "KS_Solvers/PPCG"
+        then
+
+            sed '/@elpa1@/d' make.depend > make.depend.tmp
+            sed '/@ifcore@/d' make.depend.tmp > make.depend
+        fi
+
+        if test "$DIR" = "Modules"
+        then
+
+            sed '/@elpa1@/d' make.depend > make.depend.tmp
+            sed '/@ifcore@/d' make.depend.tmp > make.depend
+        fi
 
         if test "$DIR" = "PW/src" || test "$DIR" = "TDDFPT/src"
         then
@@ -144,9 +177,13 @@ for dir in $dirs; do
         if test "$DIR" = "EPW/src"
         then
             sed '/@f90_unix_io@/d' make.depend > make.depend.tmp
-            sed '/@f90_unix_env@/d' make.depend.tmp > make.depend
+            cp make.depend.tmp make.depend
+            sed '/@f90_unix_env@/d' make.depend > make.depend.tmp
+            cp make.depend.tmp make.depend
             sed '/@w90_io@/d' make.depend > make.depend.tmp
-            sed '/@ifport@/d' make.depend.tmp > make.depend
+            cp make.depend.tmp make.depend
+            sed '/@ifport@/d' make.depend > make.depend.tmp
+            cp make.depend.tmp make.depend
         fi
 
         rm -f make.depend.tmp
