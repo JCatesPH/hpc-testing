@@ -1,6 +1,6 @@
 &CONTROL
   calculation = 'scf'
-  prefix = 'ZrO/ZRO'
+  prefix = 'ZrO'
   restart_mode = 'from_scratch'
   verbosity = 'low'
   disk_io = 'none'
